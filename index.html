@@ -24,18 +24,19 @@ p.padding2 {padding-left: 50%;}
     <p class="w3-justify">We live in a noisy world, and often times it is difficult to escape all that noise in our busy lives. Many people struggle with getting in the right headspace for productivity. There are so many distractions that is it difficult to focus when studying or doing projects, and oftentimes music and podcasts can take our attention away even when intended for focusing. Our goal is to give users the tools to create detailed and varied soundscapes for a number of applications. These applications include media projects involving sound (e.g. foley for a film), assistance for studying or sleeping, or helping an individual or group of people to relax (e.g. yoga or meditation). There are some websites that attempt to accomplish this, but we believe they don't go far enough or are limited in their scope. Our intention is to create a functional but pleasing interface that allows users to control the world of sound. We also have a number of features that intend to expand the functionality of this product such as presets, downloadable soundscapes, and being able to upload custom sounds. There's a lot of potential, and we want to ensure that our product is well-designed and accomplishes everything that a user could want from an ambient sound generator.</p>
 
     <h3 class="w3-justify">Key Stakeholders</h3>
-    <p class="w3-justify">This product provides users with a selection of high quality background sounds as well as a tool to assist with user customization. The primary users of this product would include those who want to introduce ambient white noise to their daily lives to assist with working or relaxing. These users would include students trying to study, people who have difficulty falling asleep, and people who are simply looking for an escape from a noisy environment. This product could also be valuable to those who desire a natural atmosphere but live in an urban environment. Other primary users of this application might be people working in the Foley departments of digital media. These users could use the app as a resource for finding background sound effects as well as a tool for audio editing.
+    <p class="w3-justify">This product provides users with a selection of high quality background sounds as well as a tool to assist with user customization. The primary users of this product would include those who need assistance with working or relaxing. These users would include students trying to study or do homework, people who have difficulty falling asleep, and people who are simply looking for an escape from a noisy environment. This product could also be valuable to those who desire a natural atmosphere but live in an urban environment. Other primary users of this application might be people working in the Foley departments of digital media. These users could use the app as a resource for finding and mixing background sound effects for their scenes.</p>
 
+    <h3 class="w3-justify">User profiles</h3>
     <div class="w3-row w3-padding-32">
       <div>
         <h5>Todd Matthews</h5>
-        <p>Todd Matthews is a second year university student. He is working towards completing an undergraduate degree in english at the University of Calgary. He enjoys writing but struggles with staying focused.  He tries listening to music while focusing, but he often finds it distracting. He is relatively adept at learning new pieces of software, but still avoids this by sticking to what he’s familiar with.</p>
+        <p>Todd Matthews is a second year university student. He is working towards completing an undergraduate degree in english at the University of Calgary. He enjoys writing but struggles with staying focused.  He tries listening to music while focusing, but he often finds it distracting. He is relatively adept at learning new pieces of software, but still prefers to stick with what he knows.</p>
 
         <h5>Sarah Goldman</h5>
-        <p>Sarah Goldman is a waitress at a local restaurant. She isn’t sure what she wants to do with her life, but she does make short films as a hobby. She knows how to use basic video editors, but has no experience with sound editing software. Sarah is an outdoors person who enjoys nature.</p>
+        <p>Sarah Goldman is a waitress at a local restaurant. She isn’t sure what she wants to do with her life, but she does make short films as a hobby. She knows how to use basic video editors, but has no experience with sound editing software. Sarah is an outdoors person who enjoys nature and making videos about the natural world.</p>
 
         <h5>Fiona Bucelli</h5>
-        <p>Fiona Bucelli is a graduate student at the University of Toronto. She grew up in rural Ontario and frequently misses the more natural atmosphere. Occasionally, during her spare time, she works as a yoga instructor. Being both a graduate student and a yoga instructor, her schedule is often very busy.</p>
+        <p>Fiona Bucelli is a graduate student at the University of Toronto, and lives in the city. She grew up in rural Ontario and frequently misses the more natural atmosphere. During her spare time she works as a yoga instructor. Being a graduate student with a job makes her schedule very packed, and has to be efficient to get tasks complete.</p>
 
       </div>
     </div>
@@ -43,55 +44,68 @@ p.padding2 {padding-left: 50%;}
     <h3 class="w3-justify">Requirements</h3>
     <!-- First requirement -->
     <h4 class="w3-justify">Requirement 1</h4>
-    <p class="w3-justify">The user should be able to independently control the volume of any of the ambient sounds.</p>
-    <h5 class="w3-justify"><u>Scenario</u></h5>
-    <p class="w3-justify">Todd has found a sound combination that he enjoys for relaxing but notices that the bird noises are louder then he would expect. Todd is able to dampen the sounds of the birds and balance them with the rest of his sounds.</p>
+    <p class="w3-justify">There should be a library of existing/premade common sound samples on the website. Initial requirements will be for 20 different sounds, drawing primarily from natural sounds (e.g. birdsong, fire, waves, etc.).</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Fiona is teaching a yoga class and wants the classroom to be filled with the sound of birds.  She goes to the menu and looks for a “bird” sound option.  Upon finding it, she plays the sound for her classroom.</p>
     <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_1_hst.png" class="w3-image w3-greyscale-min">
 
     <!-- Second requirement -->
     <h4 class="w3-justify">Requirement 2</h4>
-    <p class="w3-justify">The user should be able to export an audio file, likely an mp3, based on their current sound selection, intensity, and volumes. </p>
-    <h5 class="w3-justify"><u>Scenario</u></h5>
-    <p class="w3-justify">Sarah has completed her selection of sounds for a scene and now wishes to export them in a high quality file to include as background noise. Sarah can click the download button and receive an audio file containing her exact selection of sounds. She can now easily add this sound file to her production.</p>
+    <p class="w3-justify">The user should be able to independently control the volume of any of the ambient sounds as well as being able to control the master volume.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Todd has found a sound combination that he enjoys for relaxing but notices that the fire sound is too loud for him. Todd is able to dampen the sounds of the fire to create a soundscape that is more to his liking.</p>
     <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_2_hst.png" class="w3-image w3-greyscale-min">
 
-    <!-- 2.1 requirement -->
-    <h5 class="w3-justify">Requirement 2.1</h5>
-    <p class="w3-justify">The user should be able to choose the length/format of the audio file that they are exporting.</p>
-    <h5 class="w3-justify"><u>Scenario</u></h5>
-    <p class="w3-justify">For the scene Sarah is creating she requires 3:14 of audio. During the export process Sarah selects this audio file length and completes the Foley for her scene.</p>
+
 
     <!-- Third requirement -->
     <h4 class="w3-justify">Requirement 3</h4>
-    <p class="w3-justify">Ability for a user to change the user to change the intensity of a sound sample. For example, an ocean sound may have the option to increase how hard the waves are crashing onto the shore or to add or remove sea birds.</p>
-    <h5 class="w3-justify"><u>Scenario</u></h5>
-    <p class="w3-justify">Todd grew up near an ocean in Victoria but now is attending school in central Alberta. A recent writing assignment has him both stressed and at a loss of focus. Todd, to relax himself and remind himself of home, puts on the sound of gentle waves hitting the beach.</p>
+    <p class="w3-justify">The user should be able to export an audio file, likely an mp3, based on the sounds they have chosen as well as the adjustments in volume that have been made to them.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Sarah has completed her selection of sounds for a scene and now wishes to export them as a sound file to use in her film. Sarah can click the download button and receive an audio file containing her exact selection of sounds. She can now easily add this sound file to her production.</p>
     <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_3_hst.png" class="w3-image w3-greyscale-min">
+
+    <!-- 3.1 requirement -->
+    <h5 class="w3-justify">Requirement 3.1</h5>
+    <p class="w3-justify">The user should be able to choose the length/format of the audio file that they are exporting.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">For the scene Sarah is creating she requires 3:14 of audio. During the export process Sarah selects this audio file length and completes the Foley for her scene.</p>
+
+    <!-- 3.2 requirement -->
+    <h5 class="w3-justify">Requirement 3.2</h5>
+    <p class="w3-justify">In addition to downloading the file, the user should be able to save the parameters as a preset that they can name and reuse when the user comes back.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Fiona has made a great soundscape for her yoga class, and wants to use it again in the next class she teaches.  She clicks/presses a button to save the parameters, names it “yoga” and when she comes back to the product she is able to click/press on her preset and the soundscape is set to where it was when she saved it.</p>
 
     <!-- Fourth requirement -->
     <h4 class="w3-justify">Requirement 4</h4>
-    <p class="w3-justify">There should be an option that allows the users to upload any sound sample that they want. The uploaded sample will have the same volume control option as all the default sound samples but will not have an intensity option. The file format will be restricted to specific audio codecs in order to filter out bad files.</p>
-    <h5 class="w3-justify"><u>Scenario</u></h5>
-    <p class="w3-justify">To be compleated.</p>
+    <p class="w3-justify">Ability for a user to tweak the type of sounds that are being played.  For each sound, there can be one or more variations on that sound to add variety to the product.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">A recent writing assignment has made Todd both stressed and distracted. Todd, to relax himself and remind himself of home, puts on the sound of waves, but finds it too intense.  When looking at the options for waves, he finds an alternate sound that is much gentler than the default.</p>
     <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_4_hst.png" class="w3-image w3-greyscale-min">
+
+    <!-- Fifth requirement -->
+    <h4 class="w3-justify">Requirement 5</h4>
+    <p class="w3-justify">There should be an option that allows the users to upload any sound sample that they want. The uploaded sample will have the same volume control option as all the default sound samples but will not have an intensity option. The file format will be restricted to  whatever sound file is used for the samples, and the custom sounds will remain local to the computer that they are uploaded from.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Sarah is working on a new video for her YouTube channel. She likes the sounds available on our ambient sound generator, but wants to add some light background music to see how it will all sound together in her video.  She uploads the music and adjusts its volume until it’s balanced with the rest of the ambience.</p>
+    <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_5_hst.png" class="w3-image w3-greyscale-min">
+
+    <!-- 5.1 requirement -->
+    <h5 class="w3-justify">Requirement 5.1</h5>
+    <p class="w3-justify">Users should have the ability to remove samples that they have uploaded.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Sarah has added lots of her own tracks to the point where she can’t quickly find her sounds anymore.  She selects some her own sounds from before that she doesn’t need anymore and deletes them to clear up space.</p>
+
+    <!-- Sixth requirement -->
+    <h4 class="w3-justify">Requirement 6</h4>
+    <p class="w3-justify">There should be a play/pause button so that users can stop or resume playback of sound samples.</p>
+    <h6 class="w3-justify"><u>Scenario</u></h6>
+    <p class="w3-justify">Todd is listening to ambient sounds but also expecting a phone call. Not wanting to disturb the caller with his bird call sounds, he uses the pause button to stop playback before answering the phone. Afterwards, he resumes his bird calls by simply pushing play.</p>
+    <img src="https://raw.githubusercontent.com/CorbinGraham/SENG_310_phase_1/master/assets/scenario_6_hst.png" class="w3-image w3-greyscale-min">
   </div>
 
 <!-- End Page Content -->
 </div>
-
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-
 </body>
 </html>
